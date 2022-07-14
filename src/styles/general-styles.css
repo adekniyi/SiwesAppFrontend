@@ -1,0 +1,15 @@
+:root {
+    --blue: #1890FF;
+    --white: #ffffff;
+    --darkblue: #001529;
+    --lightbrown:#3F3D56;
+    --red:#F13636;
+    --green:#28B446;
+    --grey:#E5E5E5;
+    --white:#FFFFFF;
+    --darkgray:#333333;
+    --lightgray:#777777;
+    --justifycontent: space-around;
+    --alignitem: center;
+    --mydisplay:flex;
+  }
