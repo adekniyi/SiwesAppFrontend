@@ -1,0 +1,41 @@
+@import './general-styles.css';
+
+.table-com-row{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    /* background-color: red; */
+    padding: 5px 0px 5px 0px;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--white);
+}
+
+.table-com-row div:nth-child(-n+5) {
+   width: 25%;
+}
+
+.table-com-row div:last-child{
+    width: 10%;
+}
+.table-com-row div:first-child{
+    display: flex;
+}
+
+.table-com-row > div img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.table-com > div{
+    margin-bottom: 0.7rem;
+}
+.table-com{
+    background-color: var(--grey);
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
