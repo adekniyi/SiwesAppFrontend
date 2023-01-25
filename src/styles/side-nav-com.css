@@ -1,0 +1,14 @@
+@import './general-styles.css';
+
+.side-nav-container{
+    width: 20%;
+    background-color: var(--darkblue);
+    height: 600px;
+}
+.side-meus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  /* text-align: center; */
+}
